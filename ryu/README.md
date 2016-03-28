@@ -2,7 +2,7 @@
 This folder contains implementations of the All-Path family protocols based on the Ryu SDN framework: https://osrg.github.io/ryu/
 
 ### All-Path basic locking
-The file *allpath_switch_13.py* is based on the Ryu's SimpleSwitch application for OpenFlow 1.3 (simple_switch_13.py), dated 02/2016. It extends it so that it avoids loops in the network. To do so, the name of the application has been changed to AllPathSwitch13 and two parts of code have been added to the original source:
+The file __allpath_switch_13.py__ is based on the Ryu's SimpleSwitch application for OpenFlow 1.3 (simple_switch_13.py), dated 02/2016. It extends it so that it avoids loops in the network. To do so, the name of the application has been changed to AllPathSwitch13 and two parts of code have been added to the original source:
 
 First, the All-Path locking to avoid loops:
 ```python
